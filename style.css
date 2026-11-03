@@ -1,5 +1,5 @@
 body { 
-    background-color: red;
+    background-color: rgb(38, 138, 231);
     font-size: 16px;
 }
 
@@ -16,7 +16,7 @@ body {
     gap: 30%;
 }
 
-#titulo {
+.titulo {
 
 }
 
