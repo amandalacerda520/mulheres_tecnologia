@@ -1,10 +1,10 @@
 body { 
-    background-color: rgb(38, 138, 231);
+    background-color: rgb(2, 28, 53);
     font-size: 16px;
 }
 
 .cabecalho{
-    background-color: black;
+    background-color: rgb(105, 91, 226);
     color: whitesmoke;
     padding-top: 30px;
     padding-bottom: 30px;
