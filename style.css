@@ -1,11 +1,11 @@
 body { 
-    background-color: #0f172a;
+    background-color: #0f0c1b;
     font-size: 16px;
 }
 
 .cabecalho{
-    background-color: #1e293b;
-    color: #f8fafc;
+    background-color: #2a1b4e;
+    color: #f4effa;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 22px;
@@ -45,14 +45,14 @@ li a{
 
 button{
     font-size: 16px;
-    color: #38bdf8;
+    color: #e879f9;
 }
 
 footer{
      position: fixed;
      bottom: 0;
-     background-color: #1e293b;
-     color: #94a3b8;
+     background-color: #1e1035;
+     color: #c4b5fd;
      font-size: 30px;
      width: 100%;
      text-align: center;
