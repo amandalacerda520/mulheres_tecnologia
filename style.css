@@ -1,58 +1,79 @@
 body { 
     background-color: rgb(38, 138, 231);
     font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 120px;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: black;
     color: whitesmoke;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 22px;
     padding: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 30%;
 }
 
-.titulo {
-
+#titulo {
+    font-size: 26px;
+    font-weight: bold;
 }
 
 p {
-    
+    margin: 15px 20px;
+    line-height: 1.5;
+    color: white;
 }
 
 .imgcentro {
-
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
 }
 
+.menu {
+    text-align: center;
+    margin-top: 40px;
+}
 
-ul{
+ul {
     font-size: 16px;
 }
 
-li{
+li {
     display: inline-block;
-   
+    margin: 10px 15px;
 }
 
-li a{
-    font-size: 50px;
-
+li a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
 }
 
-button{
+li a:hover {
+    text-decoration: underline;
+}
+
+button {
     font-size: 16px;
     color: rgb(255, 0, 132);
 }
 
-footer{
-     position: fixed;
-     bottom: 0;
-     background-color: yellow;
-     font-size: 30px;
-     width: 100%;
-     text-align: center;
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: yellow;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+}
+
+footer p {
+    color: black;
+    margin: 0;
 }
