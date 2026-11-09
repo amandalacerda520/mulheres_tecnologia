@@ -77,3 +77,20 @@ footer p {
     color: black;
     margin: 0;
 }
+
+.btn-voltar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.btn-voltar:hover {
+    background-color: #ffffff;
+    color: #004080;
+}
