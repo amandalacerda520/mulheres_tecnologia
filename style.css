@@ -1,12 +1,13 @@
 body { 
-    background-color: rgb(38, 138, 231);
+    background-color: #1a0933;
     font-size: 16px;
     font-family: sans-serif;
     padding-bottom: 120px;
+    margin: 0;
 }
 
 .cabecalho {
-    background-color: rgb(208, 120, 230);
+    background-color: #4a154b;
     color: whitesmoke;
     padding: 20px;
     text-align: center;
@@ -22,7 +23,7 @@ body {
 p {
     margin: 15px 20px;
     line-height: 1.5;
-    color: white;
+    color: #e9d5ff;
 }
 
 .imgcentro {
@@ -40,6 +41,8 @@ p {
 
 ul {
     font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
 
 li {
@@ -49,48 +52,60 @@ li {
 
 li a {
     font-size: 30px;
-    color: white;
+    color: #c084fc;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 li a:hover {
+    color: #f3e8ff;
     text-decoration: underline;
 }
 
 button {
     font-size: 16px;
-    color: rgb(255, 0, 132);
+    background-color: #6b21a8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #7e22ce;
 }
 
 footer {
     position: fixed;
     bottom: 0;
-    background-color: yellow;
+    background-color: #2e1065;
     font-size: 18px;
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    color: black;
 }
 
 footer p {
-    color: black;
+    color: #d8b4fe;
     margin: 0;
 }
 
 .btn-voltar {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #004080;
+    background-color: #581c87;
     color: #ffffff;
     text-decoration: none;
-    border: 2px solid #ffffff;
+    border: 2px solid #c084fc;
     border-radius: 5px;
     font-weight: bold;
     margin-top: 15px;
+    transition: all 0.2s ease;
 }
 
 .btn-voltar:hover {
-    background-color: #ffffff;
-    color: #004080;
+    background-color: #c084fc;
+    color: #1a0933;
 }
